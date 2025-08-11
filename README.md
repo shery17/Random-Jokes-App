@@ -3,6 +3,7 @@ Full-Stack Web App w/Node.js, Express and SQLite
 
 ## Tools/Languages used
 Front-end: HTML, CSS, JavaScript
+
 Back-end: Node.js, Express and SQLite
 
 ### Installation/Running steps
