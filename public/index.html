@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Jokes App</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <header>
+                <div class="container">
+                    <h1>
+                        Random Jokes App
+                        <span class="subheading">(Tap to reveal jokes!)</span>
+                    </h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About App</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="joke-container">
+                    <div id="joke-box" class="joke-box">
+                        <p class="joke-p" id="joke-p">Click here for a joke!</p>
+                    </div>
+                    <div class="btn-controls">
+                        <button class="btn-new" id="btn-new">New Joke</button>
+                        <button class="btn-reveal" id="btn-reveal">Reveal</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

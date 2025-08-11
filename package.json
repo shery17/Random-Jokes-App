@@ -1,0 +1,20 @@
+{
+  "name": "random-jokes-app",
+  "version": "1.0.0",
+  "description": "A Web-app that gets random jokes with a click from a Node.js and Express API and a relational database.",
+  "license": "ISC",
+  "author": "Shaharyar Aurangzeb",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "create-table": "node createTable.js",
+    "seed": "node seedTable.js",
+    "view-jokes-table": "node logTable.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
