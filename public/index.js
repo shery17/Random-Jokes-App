@@ -9,7 +9,7 @@ let showingPunchline = false;
 
 async function fetchJokeById(id) {
     try {
-        const res = await fetch(`http://localhost:8000/api/jokes/${id}`)
+        const res = await fetch(`/api/jokes/${id}`)
         if (!res.ok) {
             throw Error("Something went wrong")
         }
